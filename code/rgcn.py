@@ -668,7 +668,7 @@ if __name__ == '__main__':
 
     opt = parser.parse_args()  # option
 
-    dataset_fea_pkl_fpath = opt.dataset_fea_pkl  # '../data/pkl/%s_fea.pkl' % (opt.dataset_name)
+    dataset_fea_pkl_fpath = opt.dataset_fea_pkl 
     print("arguments:%s" % opt)
     print("read feature(uu / ui, attr) pkl path:%s" % dataset_fea_pkl_fpath)
 
