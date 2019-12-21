@@ -475,7 +475,7 @@ def main(opt, cuda, Tensor, LongTensor, ByteTensor, dataset_fea_pkl_fpath):
             rgcn.eval()
 
         latent_uu_nosig, latent_nosig_list, attr_new_input = sess_run(epoch, A_u_u_norm, A_u_a, A_u_u_norm, A_u_a,
-                                                                      update_save=update_save)  # do not norm will be better?:yes attr should not do norm, but adj need norm
+                                                                      update_save=update_save)
 
         if mode == 'train':
 
@@ -624,7 +624,7 @@ if __name__ == '__main__':
     parser.add_argument('--save_dir', type=str, required=True, help='save model parameters dir: eg. ../output/xxx/ ')  #
     parser.add_argument('--dataset_name', type=str, required=True, help='dataset name: e.g. cora ')  #
 
-    parser.add_argument('--net_type', type=str, required=True, help='net_type: e.g. uu / ui')  #
+    parser.add_argument('--net_type', type=str, required=True, help='net_type: e.g. uu ')  #
 
     parser.add_argument('--dataset_fea_pkl', type=str, required=True,
                         help='dataset_fea_pkl: e.g.  ../data/xxx/input.pkl')  #
