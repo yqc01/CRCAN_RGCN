@@ -4,14 +4,16 @@
 
 This repository provides a reference implementation of CRCAN/RGCN as described in the paper: <br>
 
-
+> paper.<br>
+> author.<br>
+> journal<br>
 
 ### Basic Usage
 
 #### Example and Options
 
 ```
-see run.sh 
+see code/run.sh 
 ```
 
 
