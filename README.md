@@ -4,9 +4,9 @@
 
 This repository provides a reference implementation of CRCAN/RGCN as described in the paper: <br>
 
-> paper: Relation constrained attributed network embedding.<br>
+> paper: Relation Constrained Attributed Network Embedding.<br>
 > author: Yiqi Chen, Tieyun Qian.<br>
-> journal: Information Sciences<br>
+> journal: Information Sciences.<br>
 
 ### Basic Usage
 
