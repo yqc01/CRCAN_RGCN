@@ -31,3 +31,16 @@ sklearn
 numpy 
 ```
 
+# Citation
+If you find our code and dataset useful, please cite our paper.  
+
+```
+@inproceedings{chen2019transcap,
+  author    = {Yiqi Chen and Tieyun Qian},
+  title     = {Relation Constrained Attributed Network Embedding},
+  journal   = {Inf. Sci.},
+  volume    = {515},
+  pages     = {341--351},
+  year      = {2020},
+}
+```
